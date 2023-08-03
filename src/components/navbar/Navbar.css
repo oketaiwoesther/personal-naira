@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  @media (max-width: 1000px) {
+    .menu {
+      left: 0;
+      text-align: center;
+      padding: 3rem;
+      left: -1000px;
+      transition: .5s ease-in;
+    }
+    .menuActive {
+      left: 0;
+      transition: .5s ease-out;
+    }
+  }
